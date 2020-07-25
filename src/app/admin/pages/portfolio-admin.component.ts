@@ -11,7 +11,7 @@ import { UUID } from '~/app/types/UUID';
   template: `
     <div *ngIf="content" class="portfolio">
       <header>
-        <h1>WebDev portfolio</h1>
+        <h1>Portfolio</h1>
         <button class="pk-button pk-button_accent" (click)="onSaveAll()">Save All</button>
       </header>
       <div class="portfolio-editor-wrapper">

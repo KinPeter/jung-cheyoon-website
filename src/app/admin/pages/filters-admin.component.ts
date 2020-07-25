@@ -7,7 +7,7 @@ import { AdminPortfolioService } from '../services/admin-portfolio.service';
   template: `
     <div class="filters-admin">
       <header>
-        <h1>WebDev filters</h1>
+        <h1>Filters</h1>
         <button class="pk-button pk-button_accent" (click)="onSave()">Save</button>
       </header>
 
